@@ -3,11 +3,11 @@ import os
 
 import aws_cdk as cdk
 
-from sprint1.sprint1_stack import Sprint1Stack
+from hello.hello_stack import HelloStack
 
 
 app = cdk.App()
-Sprint1Stack(app, "Sprint1Stack",
+HelloStack(app, "HelloStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
